@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-phan</title>
+    <title>Banana</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,52 +14,83 @@
 <body>
     <section class="promo">
         <div class="container">
-            <header class="header">
-                <div class="header__menu">
-                    <img src="icons/header/menu.png" alt="menu">
-                    Меню
-                </div>
-                <a href="#" class="header__logo">
-                    <img src="icons/header/logo.png" alt="logo">
-                </a>
-                <div class="header__buttons">
-                    <div class="header__search">
-                        <img src="icons/header/search.png" alt="search">
-                    </div>
-                    <div class="header__language">
-                        UA
-                        <img src="icons/header/arrow.png" alt="arrow">
-                    </div>
-                    <div class="header__log_in">
-                        Вхід
-                        <img src="icons/header/person.png" alt="person">
-                    </div>
-                </div>
-            </header>
-        </div>
-    </section>
-
-    <section class="about">
-        <div class="container">
-            <div class="platform">
-                <h2 class="platform__title">
-                    Платформа<br>
-                    спортивного<br>
-                    танцю
-                </h2>
-                <div class="platform__descr">
-                    Перша верифікована база із міжнародною<br>
-                    системою ідентифікації
-                </div>
-                <button class="button">
-                    Зареєструватися
-                </button>
+            <div class="promo__logo">
+                <img src="icons/logo.svg" alt="menu">
             </div>
-            <img src="img/main.jpg" alt="main">
+            <div class="promo__menu">
+                <a href="#" class="catalog"><font color="#847757">Каталог</font></a>
+                <a href="#" class="advantages"><font color="#847757">Достоинства</font></a>
+                <a href="#" class="prices"><font color="#847757">Цены</font></a>
+                <a href="#" class="commets"><font color="#847757">Отзывы</font></a>
+            </div>
+            <div class="promo__pst">
+                <div class="promo__pst_title">
+                    Мягкий, сладкий, с наклейкой
+                </div>
+                <div class="promo__pst_subtitle">
+                    Даже бананы путешествуют больше, чем я
+                </div>
+                <img src="img/banana.png" alt="banana">
+            </div>
+            <button class="promo__pst_btn">
+                Заказать
+            </button>
+            
         </div>
     </section>
 
-    <section class="selector">
+    <section class="types">
+        <div class="container">
+            <div class="types__block">
+                <h2 class="types__title">
+                    Продается в разных цветах
+                </h2>
+                <div class="types__subtitle">
+                    Выбирайте банан по вашему любимому вкусу и цвету
+                </div>
+                <div class="types__list">
+                    <div class="types__list_red">
+                        <img src="img/red.jpg" alt="red">
+                        <div class="types__red_text">
+                            <div class="types__list_title">
+                                Красный
+                            </div>
+                            <div class="types__list_descr">
+                                Сладкий и сливочный<br>
+                                с оттенком малины
+                            </div>
+                        </div>
+                    </div>
+                    <div class="types__list_green">
+                        <img src="img/green.jpg" alt="green">
+                        <div class="types__green_text">
+                            <div class="types__list_title">
+                                Зеленый
+                            </div>
+                            <div class="types__list_descr">
+                                Твердый и шершавый <br>
+                                с оттенком киви
+                            </div>
+                        </div>
+                    </div>
+                    <div class="types__list_yellow">
+                        <img src="img/yellow.jpg" alt="yellow">
+                        <div class="types__yellow_text">
+                            <div class="types__list_title">
+                                Желтый
+                            </div>
+                            <div class="types__list_descr">
+                                Мягкий и сладкий <br>
+                                с оттенком винограда
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="selector">
         <div class="container">
             <nav>
                 <ul class="selector__menu">
@@ -441,13 +472,43 @@
                 <div class="faq__title">
                     Питання та відповіді
                 </div>
-                <ul class="faq__tabs">
-                    <li class="faq__tab">Що таке система кар’єрного росту?</li>
-                    <li class="faq__tab">Як зареєструвати танцюриста, якому немає 14 років?</li>
-                    <li class="faq__tab">Чим відрізняється календар e‑phan від календарів інших сайтів?</li>
-                    <li class="faq__tab">Чи можуть не зареєстровані учасники приймати участь у заходах<br>
-                    платформи?</li>
-                </ul>
+                <div class="faq__mark">
+                    <details class="faq__qt">
+                        <summary>
+                            Що таке система кар’єрного росту?  
+                        </summary>
+                        На нашій платформі впроваджується система, котра пов’язує між собою сутності танцюриста, тренера, керівника клубу, судді та організатора змагань. Це зробить неможливим попадання випадкових людей на платформу.
+                        <br>
+                        Відкривати можливість тренувати, створювати клуб, судити чи організовувати змагання зможуть лише ті особи, котрі виконали відповідні умови платформи.
+                    </details>
+                    <details class="faq__qt">
+                        <summary>
+                            Як зареєструвати танцюриста, якому немає 14 років?  
+                        </summary>
+                        Згідно законодавства, реєструватися на платформі може особа, котра досягла віку 14 років, тому що діти не мають права передавати персональні дані, копії своїх документів або документів будь-кого іншого.
+                        <br>
+                        Виходячи з цього, спочатку має зареєструватися один з батьків або опікун, отримати статус «Користувач», потім додати дані однієї або декількох дітей, копії їх свідоцтв про народження та відправити на верифікацію.
+                        <br> 
+                        Після підтвердження адміністратором платформи вірності та відповідності заповненних даних документам, створяться сторінки танцюристів.
+                    </details>
+                    <details class="faq__qt">
+                        <summary>
+                            Чим відрізняється календар e‑phan від календарів інших сайтів? 
+                        </summary>
+                        Наш календар чітко спланований та збалансований у відповідності до статусів змагань, регіону, досвіду організатора та рейтингу його попередніх заходів.
+                        <br>
+                        Календар e‑phan – це не список конкуруючих турнірів, а єдина система змагань, яка надає змогу кар’єрного росту кожному учаснику.
+                    </details>
+                    <details class="faq__qt">
+                        <summary>
+                            Чи можуть не зареєстровані учасники приймати участь<br>
+                            у заходах платформи?  
+                        </summary>
+                        Для участі в будь-якому змаганні необхідна реєстрація та верифікація користувача. 
+                        <br>
+                        Також повинні зареєструватися: тренер, керівник клубу та суддя, які планують бути присутніми на даному заході.
+                    </details>
+                </div>
             </div>
         </div>
     </section>
@@ -488,7 +549,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
