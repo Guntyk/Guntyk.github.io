@@ -4,218 +4,242 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sate</title>
+    <title>Діамант Еліт</title>
+    <link rel="stylesheet" href="css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.min.css"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <a name="main"></a>
     <header class="header">
         <div class="container">
-            <img src="icons/header/logo.svg" alt="logo" class="logo">
-            <img src="icons/header/russia_flag.svg" alt="russian" class="language">
-            <div class="header_btns">
-                <a href="#main" class="header_link">Главная</a>
-                <a href="#about" class="header_link">О компании</a>
-                <a href="#catalog" class="header_link">Каталог</a>
-                <a href="#buy" class="header_link">Связаться</a>
+            <div class="header__row">
+                <div class="header__block">
+                    <div class="header__content">
+                        <img src="icons/logo/diamant_elite6.png" alt="logo" class="logo">
+                        <img src="icons/logo/diamant_elite1.png" alt="name" class="name">
+                    </div>
+                </div>
+                <div class="header__block">
+                    <div class="header__content">
+                        <img src="icons/phone.svg" alt="phone" class="header__content_call">
+                        <a href="tel:+380505229988" class="phone">+380505229988</a>
+                        <a href="tel:+380680229988" class="phone">+380680229988</a>
+                        <a href="tel:+380732029988" class="phone">+380732029988</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-   
+
     <section class="promo">
-        <div class="container"> 
-            <div class="promo_wrap">
-                <div class="promo_face">
-                    <div class="promo_title">
-                        Sate
+        <div class="container">
+            <div class="promo__row">
+                <div class="promo__wrapper">
+                    <div class="promo__title">
+                        Клуб бального<br>
+                        танцю<br>
+                        «Діамант-Еліт»
                     </div>
-                    <div class="promo_subtitle">
-                        Если Вашего бизнеса нет в Интернете – его нет и наяву
+                    <div class="promo__subtitle">
+                        Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. 
                     </div>
-                    <button class="promo_btn">
-                        Связаться с нами
+                    <button class="button button__mt30">
+                        Зателефонувати
                     </button>
                 </div>
-                <img src="img/main.svg" alt="logo" class="promo_logo">
-                <img src="img/shadow.png" alt="shadow" class="promo_shadow">
+                <img src="img/main.jpg" alt="main">
             </div>
         </div>
     </section>
 
-    
-
-    <a name="about"></a>
-    <section class="descr">
+    <section class="selector">
         <div class="container">
-            <div class="descr_wrap">
-                <div class="about">
-                    <div class="descr_title">
-                        О компании
-                    </div>
-                    <div class="descr_subtitle">
-                        Компания Sate специализируется на производстве сайтов и баз данных. Мы можем сделать полностью готовый веб-сайт и поставить его на хостинг!
-                    </div>
-                </div>
-                <div class="advantages">
-                    <div class="descr_title">
-                        Преимущества    
-                    </div>
-                    <ul class="descr_subtitle text1">
-                        <li class="advantage">
-                            Особенный, отличающийся стиль и метод исполнения работы
-                        </li>
-                        <li class="advantage">
-                            Собственное производство
-                        </li>
-                        <li class="advantage">
-                            Короткие сроки выполнения заказов
-                        </li>
-                        <li class="advantage">
-                            Общительные сотрудники, всегда готовы ответить на любой Ваш вопрос
-                        </li>
-                        <li class="advantage">
-                            Низкие цены
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+            <nav>
+                <ul class="selector__menu">
+                    <li class="selector__1 selector__item selector__item_active"><div>Танцюристам та батькам</div></li>
+                    <li class="selector__2 selector__item"><div>Організаторам заходів</div></li>
+                    <li class="selector__3 selector__item"><div>Тренерам та хореографам</div></li>
+                </ul>
+            </nav>
+        </div>   
     </section>
 
-    <section class="catalog">
-        <img src="icons/catalog/left.svg" alt="left_arw" class="arw">
-        <div class="c_container">
-            <a name="catalog"></a>
-            <div class="catalog_title">
-                Каталог услуг
-            </div>
-            <div class="block_wrap">
-                <img src="icons/catalog/catalog.svg" alt="icon">
-                <div class="title">
-                    Одностраничный сайт
-                </div>
-                <button class="buy">
-                    Заказать
-                </button>
-            </div>
-            <div class="block_wrap">
-                <img src="icons/catalog/catalog.svg" alt="icon">
-                <div class="title">
-                    Сайт-визитка
-                </div>
-                <button class="buy">
-                    Заказать
-                </button>
-            </div>
-            <div class="block_wrap">
-                <img src="icons/catalog/catalog.svg" alt="icon">
-                <div class="title">
-                    Интернет магазин
-                </div>
-                <button class="buy">
-                    Заказать
-                </button>
-            </div>
-            <!-- <div class="block_wrap">
-                <img src="icons/catalog/catalog.svg" alt="icon">
-                <div class="title">
-                    Промо сайт
-                </div>
-                <button class="buy">
-                    Заказать
-                </button>
-            </div>
-            <div class="block_wrap">
-                <img src="icons/catalog/catalog.svg" alt="icon">
-                <div class="title">
-                    Интернет-магазин
-                </div>
-                <button class="buy">
-                    Заказать
-                </button>
-            </div>
-            <div class="block_wrap">
-                <img src="icons/catalog/catalog.svg" alt="icon">
-                <div class="title">
-                    Персональный сайт
-                </div>
-                <button class="buy">
-                    Заказать
-                </button>
-            </div>
-            <div class="block_wrap">
-                <img src="icons/catalog/catalog.svg" alt="icon">
-                <div class="title">
-                    Имиджевый сайт
-                </div>
-                <button class="buy">
-                    Заказать
-                </button>
-            </div> -->
-        </div>
-    <img src="icons/catalog/right.svg" alt="right_arw" class="arw">
-    </section>
-
-    <section class="form">
-        <a name="buy"></a>
+    <section class="block">
         <div class="container">
-            <div class="form_wrapper">
-                <form id="consultation-form" class="feed" action="#">
-                    <input name="name" required="" placeholder="Ваше имя" type="text">
-                    <input name="email" required="" placeholder="Ваш E-Mail" type="email">
-                    <input name="text" required="" placeholder="Ваш вопрос" class="text">
-                    <button class="button button_form">Отправить</button>
-                </form>
-                <div class="form_descr">
-                    <div class="form_title">
-                        Есть вопросы?
+            <div class="block__content_active dancer">
+                <div class="dancer__content">
+                    <div class="dancer__item">
+                        <img src="img/block1.png" alt="1">
+                        <div class="dancer__item_in">
+                            <div class="dancer__title">
+                                Бальні танці<br>для дітей
+                            </div>
+                            <img src="icons/arrows/arrow_small.svg" alt="arrow" class="dancer__arrow">
+                        </div>
                     </div>
-                    <div class="form_subtitle">
-                        Напишите нам, мы поможем и ответим на всё!
+                    <div class="dancer__item">
+                        <img src="img/block2.png" alt="1">
+                        <div class="dancer__item_in">
+                            <div class="dancer__title">
+                                Спортивні<br>бальні танці
+                            </div>
+                            <img src="icons/arrows/arrow_small.svg" alt="arrow" class="dancer__arrow">
+                        </div>
                     </div>
+                    <div class="dancer__item">
+                        <img src="img/block3.png" alt="1">
+                        <div class="dancer__item_in">
+                            <div class="dancer__title">
+                                Pro-Am для<br>дітей
+                            </div>
+                            <img src="icons/arrows/arrow_small.svg" alt="arrow" class="dancer__arrow">
+                        </div>
+                    </div>
+                    <div class="dancer__item">
+                        <img src="img/block4.png" alt="1">
+                        <div class="dancer__item_in">
+                            <div class="dancer__title">
+                                Pro-Am для<br>дорослих
+                            </div>
+                            <img src="icons/arrows/arrow_small.svg" alt="arrow" class="dancer__arrow">
+                        </div>
+                    </div>
+                    <div class="dancer__item_last">
+                        <img src="img/block5.png" alt="1">
+                        <div class="dancer__item_in">
+                            <div class="dancer__title">
+                                Онлайн навчання
+                            </div>
+                            <img src="icons/arrows/arrow_big.svg" alt="arrow" class="dancer__arrow dancer__arrow_big">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block__content organizator">
+                <div class="organizator__title organizator__title_main">
+                    Оренда приміщень
+                </div>
+                <div class="organizator__wrapper">
+                    <div class="organizator__content">
+                        <div class="organizator__card">
+                            <img src="img/organizators1.jpg" alt="1">
+                            <div class="organizator__address organizator__address_mb55">
+                                м. Либідська Залізничне шосе 3
+                            </div>
+                        </div>
+                        <div class="organizator__card">
+                            <img src="img/organizators2.jpg" alt="2">
+                            <div class="organizator__address">
+                                м. Позняки вул. Руденко 6а
+                            </div>
+                        </div>
+                    </div>
+                    <div class="organizator__reasons">
+                        <div class="organizator__title">
+                            Для чого можна<br>орендувати зали?
+                        </div>
+                        <nav>
+                            <ul>
+                                <li>Майтер класи</li>
+                                <li>Семінари</li>
+                                <li>Вечірки</li>
+                                <li>Конгреси</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="block__content trainer">
+                <img src="img/trainers.jpg" alt="couple">
+                <div class="trainer__wrapper">
+                    <div class="trainer__title">
+                        Запрошуємо<br>
+                        вас до<br>
+                        співпраці
+                    </div>
+                    <div class="trainer__subtitle">
+                        Проводьте групові та індивідуальні<br>
+                        заняття в наших залах
+                    </div>
+                    <button class="button button__mt30">
+                        Зателефонувати
+                    </button>
                 </div>
             </div>
         </div>
     </section>
-    
 
-    <section class="end">
-        <div class="end_wrapper">
-            <div class="main">
-                <div class="title">
-                    Sate
-                </div>
-                <button class="cnct">
-                    Связаться с нами
-                </button>
-            </div>
-            <div class="end_btns">
-                <a href="#main" class="end_link">Главная</a>
-                <a href="#about" class="end_link">О компании</a>
-                <a href="#catalog" class="end_link">Каталог</a>
-                <a href="#buy" class="end_link">Связаться</a>
-            </div>
-            <button class="end_up">
-                <img src="icons/footer/up.svg" alt="up" class="up">
-            </button>
-        </div>
-    </section>
-
-    <section class="footer">
+    <section class="staff">
         <div class="container">
-            <div class="footer_mark">
-                © 2021 Sate
-                <div class="footer_mark_politics">
-                    Политика конфиденциальности 
+            <div class="staff__title">
+                Наш персонал
+            </div>
+            <div class="staff__wrapper">
+                <img src="icons/arrows/arrow_left.svg" alt="left" class="arrow">
+                <div class="staff__content">
+                    <div class="staff__card">
+                        <div class="staff__card_wrap">
+                            <img src="icons/avatar1.png" alt="1">
+                            <div class="staff__name">
+                                Ірина Жуленко
+                            </div>
+                            <div class="staff__descr">
+                                Вчитель бального танцю<br>в клубі Діамант-Еліт
+                            </div>
+                            <button class="button button__staff">
+                                Подробніше
+                            </button>
+                        </div>
+                    </div>
+                    <div class="staff__card">
+                        <div class="staff__card_wrap">
+                            <div class="staff__descr">
+                                Матвій Жовква - професійний танцор та вчитель бального танцю. Навчався в Київській академії танців. Працює<br>в клубі Діамант-Еліт з<br>2013 року.
+                            </div>
+                            <button class="button button__staff">
+                                Назад
+                            </button>
+                        </div>
+                    </div>
+                    <div class="staff__card">
+                        <div class="staff__card_wrap">
+                            <img src="icons/avatar2.png" alt="1">
+                            <div class="staff__name">
+                                Ірина Жуленко
+                            </div>
+                            <div class="staff__descr">
+                                Вчитель бального танцю<br>в клубі Діамант-Еліт
+                            </div>
+                            <button class="button button__staff">
+                                Подробніше
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer_mark_using">
-                    Условия использования
-                </div>
+                <img src="icons/arrows/arrow_right.svg" alt="right" class="arrow">
             </div>
         </div>
     </section>
+
+    <section class="location">
+        <div class="container">
+            <div class="location__row">
+                <div class="location__wrapper">
+                    <div class="location__title">
+                        Наші зали та<br>
+                        філіали
+                    </div>
+                    <button class="button button__mt20">
+                        Зателефонувати
+                    </button>
+                </div>
+                <img src="img/map.jpg" alt="map">
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
