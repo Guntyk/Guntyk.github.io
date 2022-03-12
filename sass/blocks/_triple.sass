@@ -1,8 +1,4 @@
-.block
-    color: #223344
-    
 .dancer
-    // display: none
     color: #fff
     font-weight: 600
     font-size: 24px
@@ -18,29 +14,34 @@
         width: 540px
         height: 299px
         cursor: pointer
+        transition: 0.4s
         &:hover
-            transform: translateX(-1%)
-            transition: 0.5s all
+            .dancer__arrow
+                transform: translateY(0px)
+                opacity: 1
         &_last
             position: relative
             margin-top: 15px
             cursor: pointer
             &:hover
-                transform: translateX(-0.3%)
-                transition: 0.5s all
-    &__title
-        position: absolute
-        bottom: 35px
-        left: 35px
+                .dancer__arrow
+                    transform: translateY(0px)
+                    opacity: 1
     &__arrow
         position: absolute
         bottom: 41px
         left: 397px
+        transform: translateY(100px)
+        opacity: 0
+        transition: 0.5s
         &_big
             left: 586px
+    &__title
+        position: absolute
+        bottom: 35px
+        left: 35px
 
 .organizator
-    // display: none
     width: 1056px
     margin: 0 auto
     min-height: 742px
@@ -75,9 +76,8 @@
                 line-height: 27px
 
 .trainer
-    display: flex
-    // display: none
     margin: 155px 0
+    margin-left: 50px
     min-height: 660px
     &__title
         font-weight: 700
@@ -89,5 +89,13 @@
         font-size: 20px
         line-height: 24px
     &__wrapper
-        padding-left: 43px
-        margin: auto 0
+        margin-top: 131px
+        margin-right: 200px
+        float: right
+
+.block
+    color: #223344
+    &__content
+        display: none
+        &_active
+            display: block
