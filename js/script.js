@@ -3,6 +3,11 @@ $('ul.selector__menu').on('click', 'li:not(.selector__item_active)', function() 
 		.addClass('selector__item_active').siblings().removeClass('selector__item_active')
 		.closest('body').find('div.block__content').removeClass('block__content_active').eq($(this).index()).addClass('block__content_active');
 });
+$('div.staff__content').on('click', 'div:not(.staff__item_active)', function() {
+	$(this)
+		.addClass('staff__item_active').siblings().removeClass('staff__item_active');
+		// .closest('body').find('div.block__content').removeClass('block__content_active').eq($(this).index()).addClass('block__content_active');
+});
 VanillaTilt.init(document.querySelectorAll(".dancer__item"), {
     max: 10,
     speed: 1000,
